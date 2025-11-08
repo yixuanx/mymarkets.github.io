@@ -14,8 +14,8 @@
 # Middle-wares:
 UUID /API Gateway /Queue:
 
-- Redis: UUID /Atomic /API Gateway:
-    - Scheme: Redis INC + Business Prefix	 
+- Redis: UUID /API Gateway:
+    - Scheme: Redis INC atomic + Business Prefix	 
         - Applicable Scenarios: Order numbers, serial numbers (require readability)
         - Advantages: Ordered, readable, easy to implement
         - Disadvantages: Depends on Redis performance, long ID 
@@ -29,16 +29,15 @@ UUID /API Gateway /Queue:
 - Kafka: Exactly once for the queue:
     - Kafka provides at least once semantics by default, 
     - but it can be configured to provide exactly once semantics. Deduplication in Kafka depends on:
-        - A unique message ID,
+        - Unique message ID,
         - And ensuring that consumers do not process the same offset repeatedly.
 
 
 - Flink: Event based iteration, with window and watermark, 
-    - then for machine learning
+    - then for machine learning, onnx
 
 - Nodejs ( * and python tooling ): 
     - for projects delivery and demonstration,  
     - for AI /math /exam as well.
 
-- *Stocks & Money: 
-    - The CEO of Southeast Asia's largest bank warns investors: "Fasten your seat belts, we are in for a bumpy ride."
+- *Stocks /Money: The CEO of Southeast Asia's largest bank warns investors: "Fasten your seat belts, we are in for a bumpy ride."
