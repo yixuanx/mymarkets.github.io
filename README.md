@@ -5,6 +5,14 @@
 - nodejs react electron (svelte) ...
 - onnx python ai math...
 
+
+
+nodejs redis postgre --- with light queue with redis or postgre or in memory queue
+    ---kafka <=== not must have if not big systems to integrate each other
+    ---flink...  ignite  <=== juc or gochannel
+        xxxno elastic <=== postgre
+        xxxno cassandra <=== postgre
+            xxxno hbase or mongo <=== postgre
     
 
 ###Tech stack:
@@ -33,9 +41,9 @@ UUID /API Gateway /Queue:
         - Disadvantages: Unordered, depends on clock synchronization 
 
 
-- Kafka: Exactly once for the queue:
-    - Kafka provides at least once semantics by default, 
-    - but it can be configured to provide exactly once semantics. Deduplication in Kafka depends on:
+- Kafka: "exactly once" for the queue:
+    - Kafka provides "at least once" semantics by default, 
+    - but it can be configured to provide "exactly once" semantics. Deduplication in Kafka depends on:
         - Unique message ID,
         - And ensuring that consumers do not process the same offset repeatedly.
 
