@@ -11,5 +11,5 @@
 nodejs redis postgre [juc nio jvm netty /go light thread] --- dist uuid:
 
     ***kafka offset /exactly_once message — with uuid for message
-    ***flink watermark /stream event iteration /window event — with event or mesasge
-        xxxmore: elastic, mongo /hbase/cassandra...  <= postgre
+    ***flink watermark /stream event iteration /window event — for event or mesasge
+        xxxmore: elastic, mongo /hbase /cassandra...  <== postgre
