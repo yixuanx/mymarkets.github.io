@@ -1,4 +1,12 @@
-# mymarkets.github.io
+# mymarkets.github.io - in short:
+
+***nodejs with  redis postgre:
+    java juc nio jvm netty spring: kafka / flink ==> strong type lang: go /rust /cxx...
+
+    nodejs react electron (svelte) ...
+    onnx python ai math...
+
+    
 
 ### Tech stack:
 - nodejs  (* and python as tooling for ai or math)
@@ -11,7 +19,7 @@
 
 
 
-# Middle-wares:
+### Middle-wares:
 UUID /API Gateway /Queue:
 
 - Redis: UUID /API Gateway:
