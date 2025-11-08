@@ -11,5 +11,6 @@
 nodejs redis postgre [juc nio jvm netty /go light thread] --- dist uuid:
 
     ***kafka offset /exactly once message — with uuid for message --- needed for separate system to process the message
-    ***flink watermark /stream event iteration /window event — for event or message --- needed for separate system to process the message, including real time stream event process, may connect to ai training or inference system as well
+    ***flink watermark /stream event iteration /window event — for event or message --- needed for separate system to process the message, 
+    including real time stream event processing, may connect to ai training or inference system as well
         xxxmore: elastic, mongo /hbase /cassandra...  <= postgre
