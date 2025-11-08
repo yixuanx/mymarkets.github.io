@@ -1,14 +1,14 @@
 # mymarkets.github.io
 
-the TECH STACK:
-nodejs  [*python as math tooling]
+### the TECH STACK:
+- nodejs  [*python as math tooling]
   ---end to end delivery for projects, demonstration
   
-java [=> go /cxx /rust] for core service, new gen young talents...
+- java [=> go /cxx /rust] for core service, new gen young talents...
 
-redis, api gateway...  [postgre]
-kafka (*java), flink (*java)
+- redis, api gateway...  [postgre]
+- kafka (*java), flink (*java)
 
 
-ai: onnx pytorch
+- ai: onnx pytorch
   ai: image, llm ai gen agent rag (*help education for understanding as well)
